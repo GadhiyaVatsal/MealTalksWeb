@@ -30,18 +30,18 @@ export default function HeroSection() {
           {/* Soft glow behind phones */}
           <div className="absolute w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full bg-[#FFF0E6] blur-2xl pointer-events-none" />
 
-          <div className="relative flex items-end">
+          <div className="relative w-[380px] md:w-[480px] h-[420px] md:h-[520px]">
             <img
               src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/aat6noj4_1.png"
               alt="MealTalks calorie tracking screen"
-              className="w-[200px] md:w-[260px] relative z-10 -mr-6 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-              style={{ transform: "rotate(-5deg)" }}
+              className="w-[200px] md:w-[260px] absolute left-0 top-1/2 -translate-y-1/2 z-10 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
+              style={{ transform: "translateY(-50%) rotate(-8deg)" }}
             />
             <img
               src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/r1g9w49w_2.png"
               alt="MealTalks plan ready screen"
-              className="w-[200px] md:w-[260px] relative z-20 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-              style={{ transform: "rotate(6deg)", marginBottom: "20px" }}
+              className="w-[200px] md:w-[260px] absolute right-0 top-1/2 -translate-y-1/2 z-20 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
+              style={{ transform: "translateY(-50%) rotate(8deg)" }}
             />
           </div>
         </div>
