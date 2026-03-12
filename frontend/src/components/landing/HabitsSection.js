@@ -1,9 +1,6 @@
 export default function HabitsSection() {
   return (
     <section data-testid="habits-section" className="relative py-20 md:py-28 px-6 md:px-12 lg:px-20 overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] -translate-y-1/2 rounded-full bg-[#FFF0E6]/60 blur-3xl pointer-events-none" />
-
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
         {/* Left content */}
         <div className="flex-1 max-w-md order-2 lg:order-1">
@@ -18,24 +15,20 @@ export default function HabitsSection() {
           </p>
         </div>
 
-        {/* Right - Phone mockups (actual Figma images) */}
+        {/* Right - Single phone with blob background */}
         <div className="flex-1 flex justify-center items-center relative order-1 lg:order-2">
-          <div className="absolute w-[350px] h-[350px] rounded-full bg-[#FFF0E6] blur-2xl pointer-events-none" />
+          {/* Blob background from Figma */}
+          <img
+            src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/26g7q52z_Vector%203.png"
+            alt=""
+            className="absolute w-[400px] md:w-[520px] pointer-events-none z-0 opacity-90"
+          />
 
-          <div className="relative flex items-end">
-            <img
-              src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/zq27nntg_3.png"
-              alt="MealTalks Day Streak screen"
-              className="w-[200px] md:w-[260px] relative z-20 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-              style={{ transform: "rotate(5deg)" }}
-            />
-            <img
-              src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/r1g9w49w_2.png"
-              alt="MealTalks plan screen"
-              className="w-[200px] md:w-[260px] relative z-10 -ml-16 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-              style={{ transform: "rotate(-6deg)", marginBottom: "20px" }}
-            />
-          </div>
+          <img
+            src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/zq27nntg_3.png"
+            alt="MealTalks Day Streak screen"
+            className="w-[220px] md:w-[280px] relative z-10 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
+          />
         </div>
       </div>
     </section>

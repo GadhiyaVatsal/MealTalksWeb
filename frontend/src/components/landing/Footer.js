@@ -2,9 +2,10 @@ import { AppStoreButtons } from "@/components/landing/AppStoreButtons";
 
 export default function Footer() {
   return (
-    <footer data-testid="footer" className="relative py-12 md:py-16 px-6 md:px-12 lg:px-20 bg-white border-t border-[#EBE0DA]">
-      {/* Dot pattern decoration */}
-      <div className="absolute top-4 right-4 w-24 h-24 dot-pattern pointer-events-none" />
+    <footer data-testid="footer" className="relative py-12 md:py-16 px-6 md:px-12 lg:px-20 bg-[#F9F3EF]">
+      {/* Dark dot pattern decoration (matching Figma footer) */}
+      <div className="absolute top-4 right-4 w-24 h-24 pointer-events-none"
+           style={{ backgroundImage: "radial-gradient(circle, #4A4A6A 1.5px, transparent 1.5px)", backgroundSize: "14px 14px", opacity: 0.3 }} />
 
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">

@@ -1,17 +1,20 @@
 export default function AISection() {
   return (
-    <section data-testid="ai-section" className="relative py-20 md:py-28 px-6 md:px-12 lg:px-20 bg-[#F9F3EF]/30 overflow-hidden">
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#FFF0E6]/50 blur-3xl pointer-events-none" />
-
+    <section data-testid="ai-section" className="relative py-20 md:py-28 px-6 md:px-12 lg:px-20 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-        {/* Left - Phone mockup (actual Figma image) */}
+        {/* Left - Single phone with blob background */}
         <div className="flex-1 flex justify-center items-center relative">
-          <div className="absolute w-[300px] h-[300px] rounded-full bg-[#FFF0E6] blur-2xl pointer-events-none" />
+          {/* Blob background from Figma */}
+          <img
+            src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/8u9en63y_Vector%204.png"
+            alt=""
+            className="absolute w-[400px] md:w-[520px] pointer-events-none z-0 opacity-90"
+          />
+
           <img
             src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/vbh5rbcw_4.png"
             alt="MealTalks AI Chat screen"
-            className="w-[240px] md:w-[300px] relative z-10 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-            style={{ transform: "rotate(-5deg)" }}
+            className="w-[220px] md:w-[280px] relative z-10 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
           />
         </div>
 
