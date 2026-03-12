@@ -16,7 +16,7 @@ export default function Footer() {
             <p className="text-sm text-[#8C7E77] leading-relaxed mb-5 max-w-xs">
               Smart food tracking that feels like a conversation.
             </p>
-            <AppStoreButtons size="small" />
+            <AppStoreButtons />
           </div>
 
           {/* Company column */}

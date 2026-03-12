@@ -27,23 +27,20 @@ export default function HeroSection() {
 
         {/* Right - Phone mockups (actual Figma images) */}
         <div className="flex-1 flex justify-center items-center relative animate-fade-in-up animate-delay-200" style={{ opacity: 0 }}>
-          {/* Soft glow behind phones */}
-          <div className="absolute w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full bg-[#FFF0E6] blur-2xl pointer-events-none" />
+          {/* Blob background shape from Figma */}
+          <img
+            src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/9ynwd7v6_Vector.png"
+            alt=""
+            className="absolute w-[450px] md:w-[600px] pointer-events-none z-0 opacity-90"
+          />
 
-          <div className="relative w-[380px] md:w-[480px] h-[420px] md:h-[520px]">
-            <img
-              src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/aat6noj4_1.png"
-              alt="MealTalks calorie tracking screen"
-              className="w-[200px] md:w-[260px] absolute left-0 top-1/2 -translate-y-1/2 z-10 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-              style={{ transform: "translateY(-50%) rotate(-8deg)" }}
-            />
-            <img
-              src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/r1g9w49w_2.png"
-              alt="MealTalks plan ready screen"
-              className="w-[200px] md:w-[260px] absolute right-0 top-1/2 -translate-y-1/2 z-20 drop-shadow-[0_20px_50px_rgba(30,27,75,0.25)]"
-              style={{ transform: "translateY(-50%) rotate(8deg)" }}
-            />
-          </div>
+          {/* Combined phone mockup image from Figma */}
+          <img
+            src="https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/pywzgh5l_vector%202.png"
+            alt="MealTalks app screens"
+            data-testid="hero-phones"
+            className="relative z-10 w-[340px] md:w-[480px] lg:w-[540px] drop-shadow-[0_20px_60px_rgba(30,27,75,0.25)]"
+          />
         </div>
       </div>
     </section>

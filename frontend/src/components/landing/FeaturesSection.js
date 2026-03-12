@@ -25,8 +25,7 @@ const features = [
     description: "Visualize your eating patterns over time with easy-to-read charts and reports.",
   },
   {
-    iconUrl: null,
-    iconFallback: true,
+    iconUrl: "https://customer-assets.emergentagent.com/job_mealtalks-react/artifacts/zrdp0kb9_s6.png",
     title: "Support for Local Foods",
     description: "Easily log meals from any cuisine — supports diverse dishes and local ingredients.",
   },
