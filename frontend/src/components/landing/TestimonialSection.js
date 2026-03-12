@@ -3,7 +3,7 @@ export default function TestimonialSection() {
     <section data-testid="testimonial-section" className="relative py-16 md:py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
       <div className="max-w-5xl mx-auto relative">
         {/* Orange gradient card */}
-        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#FF7A45] to-[#FFB088] p-8 md:p-12">
+        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#FFB780] via-[#FF9E6B] to-[#FF8C5C] p-8 md:p-12">
           {/* Dot pattern decoration */}
           <div className="absolute top-4 right-4 w-20 h-20 dot-pattern opacity-20 pointer-events-none" />
           <div className="absolute bottom-4 right-8 w-16 h-16 dot-pattern opacity-15 pointer-events-none" />
